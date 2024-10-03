@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="使用xml布局文件控制UI界面"
+        android:textColor="#0042FF"
+        android:textSize="28dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginStart="287dp"
+        android:layout_marginEnd="-21dp"
+        android:layout_marginBottom="297dp"
+        android:text="按钮3">
+
+    </Button>
+
+    <Button
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginStart="59dp"
+        android:layout_marginBottom="296dp"
+        android:text="按钮2">
+
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginStart="-29dp"
+        android:layout_marginEnd="296dp"
+        android:layout_marginBottom="298dp"
+        android:text="按钮1">
+
+    </Button>
+
+</RelativeLayout>
