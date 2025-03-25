@@ -1,5 +1,8 @@
 # Android 登录界面 
 
+![GitHub stars](https://img.shields.io/github/stars/TsangHaotian/Web_Truth_or_dare?style=social)
+![GitHub forks](https://img.shields.io/github/forks/TsangHaotian/Web_Truth_or_dare?style=social)
+
 
 一个简洁的 Android 登录界面实现，包含基础表单验证和用户交互功能
 
