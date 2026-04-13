@@ -1,23 +1,18 @@
-# Android 登录界面 
+# Android Login Interface 📱
 
-![GitHub stars](https://img.shields.io/github/stars/TsangHaotian/Web_Truth_or_dare?style=social)
-![GitHub forks](https://img.shields.io/github/forks/TsangHaotian/Web_Truth_or_dare?style=social)
+A clean and concise Android login interface implementation featuring basic form validation and user interaction capabilities.
 
+## 📱 Key Features
 
-一个简洁的 Android 登录界面实现，包含基础表单验证和用户交互功能
+- **Responsive Material Design Layout**: Adheres to modern design guidelines for a consistent look and feel.
+- **Input Validation**: Validates username and password fields before submission.
+- **"Remember Me" Functionality**: Persists user credentials using `SharedPreferences`.
+- **Button State Management**: Manages the interactive state of the login button (e.g., loading, disabled).
+- **Error Feedback Mechanism**: Provides clear visual feedback for invalid inputs or failed logins.
+- **Password Visibility Toggle**: Allows users to show/hide their password for easier entry.
 
+## 🛠️ Tech Stack
 
-## 📱 功能特性
-
-- 响应式 Material Design 布局
-- 用户名/密码输入验证
-- 记住密码功能（SharedPreferences）
-- 登录按钮交互状态管理
-- 错误提示反馈机制
-- 密码可见性切换功能
-
-## 🛠️ 技术栈
-
-- Android Studio
-- Java
-- XML 布局
+- **Android Studio**: Primary development environment.
+- **Java**: Programming language used for logic implementation.
+- **XML**: Used for defining the UI layout structures.
